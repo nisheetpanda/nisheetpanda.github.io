@@ -20,4 +20,4 @@ social: true # includes social icons at the bottom of the page
 
 I'm an undergraduate student studying Computer Science and Statistics at the University of Illinois Urbana-Champaign. I previously worked at [SaayamForAll](https://saayamforall.org/) and [TrustLogix](https://www.trustlogix.io/) as a software engineer intern. 
 
-I have worked on a variety of projects such as full stack webapps and machine learning model to predict crop yield rates in Odisha, India and grade public speeches given an audio.
+I have worked on a variety of projects such as full stack webapps and machine learning models to predict crop yield rates in Odisha, India and grade public speeches given an audio.
