@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+title:  # the website title (if blank, full name will be used instead)
+first_name: Nisheet
+middle_name: 
+last_name: Panda
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -134,9 +134,9 @@ external_sources:
 # Newsletter
 # -----------------------------------------------------------------------------
 
-newsletter:
-  enabled: false
-  endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
+#newsletter:
+# enabled: false
+#  endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
   # https://loops.so/docs/forms/custom-form
 
 # -----------------------------------------------------------------------------
@@ -144,19 +144,19 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-  news:
-    defaults:
-      layout: post
-    output: true
-    permalink: /:collection/:title/
+  #news:
+  #  defaults:
+  #    layout: post
+  #  output: true
+  #  permalink: /:collection/:title/
   projects:
     output: true
     permalink: /:collection/:title/
 
-announcements:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+#announcements:
+#  enabled: true
+#  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+#  limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: true
@@ -202,6 +202,8 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _news
+  - _includes/news.liquid 
 keep_files:
   - CNAME
   - .nojekyll
