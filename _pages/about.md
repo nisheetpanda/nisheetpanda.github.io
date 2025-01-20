@@ -5,7 +5,6 @@ permalink: /
 subtitle: #<a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
-  name: Nisheet Panda
   align: right
   image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
